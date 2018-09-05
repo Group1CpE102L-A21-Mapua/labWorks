@@ -1,0 +1,68 @@
+2.
+
+start
+	for num x = 1; x <= 20
+		output x
+		x = x + 1
+	endfor
+end
+
+3.
+
+start
+	num n = 1
+	num n2 = 1
+	num n3 = 1
+	num trip
+	num doub
+	while n <= 20
+		output n
+		n = n + 1
+	endwhile
+	while n2 <= 20
+		doub = n2 * 2
+		output doub
+		n2 = n2 + 1
+	endwhile
+	while n3 <= 20
+		trip = n3 * 3
+		output trip
+		n3 = n3 + 1
+	endwhile
+end
+
+4.
+
+start
+	for num x = 2; x <= 100
+		if x % 2 == 0 then
+			output x
+		endif
+		x = x + 1
+	endfor
+end
+
+5.
+
+start
+	for num x = 25; x >= 0
+		output x
+		x = x - 1
+	endfor
+end
+
+6.
+
+start
+	num x
+	num y
+	num sum
+	input y
+	x = 1
+	sum = 0
+	while x <= y
+		sum = sum + x
+		x = x + 1
+	endwhile
+	output sum
+end
